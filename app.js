@@ -110,3 +110,97 @@
 // var last = prompt("Write your last name:");
 // var fullName = first + " " + last;
 // alert("Hi " + fullName);
+
+// Question 2
+// var userInput = prompt("Write your favorite mobile phone model");
+// document.write("My favorite phone is " + userInput);
+// document.write("<br />Length of string: " + userInput.length);
+
+// Question 3
+// var word = "Pakistani";
+// document.write(`String: ${word}<br />Index of 'n': ${word.indexOf('n')}`);
+
+// Question 4
+// var word = "Hello World";
+// document.write(`String: ${word}<br />Last Index of 'l': ${word.lastIndexOf('l')}`);
+
+// Question 5
+// var word = "Pakistani";
+// document.write(`String: ${word}<br />Character at index 3: ${word.charAt(3)}`);
+
+// Question 6
+// var first = prompt("Write your first name:");
+// var last = prompt("Write your last name:");
+// var fullName = first.concat(" " + last);
+// alert("Hi " + fullName);
+
+// Question 7
+// var word = "Hyderabad";
+// document.write(`City: ${word}<br />`);
+// word = word.replace("Hyder", "Islam");
+// document.write("After replacement: " + word);
+
+// Question 8
+// var message = "Ali and Sami are best friends. They play cricket and football together";
+// message = message.replace(/and/g, "&");
+// document.write(message);
+
+// Question 9
+// var variable = "472";
+// document.write(`Value: ${variable}<br />Type: ${typeof(variable)}<br />`);
+// variable = Number(variable);
+// document.write(`Value: ${variable}<br />Type: ${typeof(variable)}`);
+
+// Question 10
+// var userInput = prompt("Write something");
+// document.write("User Input: " + userInput)
+// userInput = userInput.toUpperCase();
+// document.write("<br />Upper case: " + userInput)
+
+// Question 11
+// var userInput = prompt("Write something");
+// document.write("User input: " + userInput);
+// var first = userInput[0].toUpperCase();
+// userInput = userInput.replace(userInput[0], first);
+// document.write("<br />Title case: " + userInput);
+
+// Question 12
+// var num = 35.36;
+// document.write("Number: " + num);
+// num = num.toString().replace('.', '');
+// document.write("<br />Result: " + num);
+
+// Question 13
+// var userInput = prompt("Write your name");
+// for (;containsSpecialSymbols(userInput);) {
+//     userInput = prompt("Please enter a valid username");
+// }
+// function containsSpecialSymbols(username) {
+//     for (var j = 0; j < username.length; j++) {
+//         if (username[j] == "@" || username[j] == "." || username[j] == "," || username[j] == "!") {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+
+// Question 14
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
+// userInput = userInput.toLowerCase();
+// var flag = false;
+// for(var i = 0; i<A.length; i++){
+//     if(userInput === A[i]){
+//         flag = true;
+//         break;
+//     }else{
+//         continue;
+//     }
+// }
+// if(flag){
+//     document.write(`${userInput} is <b>available</b> at index ${i} in our bakery.`);
+// }else{
+//     document.write(`We are sorry. ${userInput} is <b>not available</b> in our bakery.`);
+// }
+
+// Question 15
