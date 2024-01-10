@@ -204,3 +204,76 @@
 // }
 
 // Question 15
+
+
+
+// Question 16
+// var university = "University of Karachi";
+// university = university.split('');
+// for(var i=0; i<university.length; i++){
+//     document.write(university[i] + "<br />");
+// }
+
+// Question 17
+// var userInput = prompt("Write something");
+// document.write("User input: " + userInput + "<br />");
+// document.write("Last character of input: " + userInput.charAt(userInput.length-1));
+
+// Question 18
+// var text = "The quick brown fox jumps over the lazy dog";
+// text = text.toLowerCase();
+// var count = 0;
+// for(var i=0; i<text.length; i++){
+//     if(text.slice(i, i+3) === "the"){
+//         ++count;
+//     }
+// }
+// document.write("Text: " + text + "<br />");
+// document.write("There are " + count + " occurrence(s) of the word 'the'");
+
+/************ Chapter 26 - 30 ************/
+
+//Question 1
+// var num = prompt("Write a number");
+// document.write(`number: ${num}<br />round off value: ${Math.round(num)}<br />floor value: ${Math.floor(num)}<br />ceil value: ${Math.ceil(num)}`);
+
+// Question 2
+// var num = prompt("Write a number");
+// document.write(`number: ${num}<br />round off value: ${Math.round(num)}<br />floor value: ${Math.floor(num)}<br />ceil value: ${Math.ceil(num)}`);
+
+// Question 3
+// var num = prompt("Write a number");
+// document.write(`The absolute value of ${num} is ${Math.abs(num)}`)
+
+// Question 4
+// var num = (Math.random() * 6) + 1;
+// num = Math.floor(num);
+// document.write("random dice value " + num);
+
+// Question 5
+// var num = (Math.random() * 2) + 1;
+// num = Math.floor(num);
+// if(num === 1){
+//     document.write("1<br />random coin value: Tails");
+// }else{
+//     document.write("2<br />random coin value: Heads");
+// }
+
+// Question 6
+// var num = (Math.random()*100) + 1;
+// var num = Math.floor(num);
+// document.write("random number between 1 and 100: " + num);
+
+// Question 7
+// var weight = parseFloat(prompt("Enter your weight in kilograms"));
+// document.write("The weight of user is " + weight + " kilograms");
+
+// Question 8
+// var num = (Math.random() * 10) + 1;
+// num = Math.floor(num);
+// var guess = prompt("Guess the secret number");
+// if(num == guess){
+//     alert("Congratulations! you got it right.");
+// }else{
+//     alert("Try again!");
+// }
